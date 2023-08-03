@@ -189,8 +189,8 @@ echo -e "$green          Install UDP              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/Afabiizni
-/Lyy-udp/main/Afabiizni/udp.sh && bash udp.sh
+#wget https://raw.githubusercontent.com/Afabiizni
+#/Lyy-udp/main/Afabiizni/udp.sh && bash udp.sh
 clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
@@ -281,5 +281,5 @@ rm /root/insshws.sh >/dev/null 2>&1
 secs_to_human "$(($(date +%s) - ${start}))" | tee -a log-install.txt
 echo -e "
 "
-read -n 1 -s -r -p "Press any key to reboot"
-reboot
+read -n 1 -s -r -p "Press any key to menu"
+menu

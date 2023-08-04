@@ -161,7 +161,8 @@ echo -e "$green      Memasang backup server              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/Afabiizni/xiao/main/backup/set-br.sh &&  chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/Bringas-tunnel/v5/main/backup/set-br.sh &&  chmod +x set-br.sh && ./set-br.sh
+#wget https://raw.githubusercontent.com/Afabiizni/xiao/main/backup/set-br.sh &&  chmod +x set-br.sh && ./set-br.sh
 clear
 #Instal Xray
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"

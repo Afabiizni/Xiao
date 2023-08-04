@@ -318,12 +318,18 @@ wget -O acs-set "https://raw.githubusercontent.com/artanodrop/v4/main/acs-set.sh
 
 wget -O sshws "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/sshws.sh"
 wget -O status "https://raw.githubusercontent.com/artanodrop/v4/main/status.sh"
-wget -O menu-backup "https://raw.githubusercontent.com/Afabiizni/xiao/main/menu/menu-backup.sh"
-wget -O backup "https://raw.githubusercontent.com/Afabiizni/xiao/main/backup/backup.sh"
-wget -O restore "https://raw.githubusercontent.com/Afabiizni/xiao/main/backup/restore.sh"
-wget -O strt "https://raw.githubusercontent.com/Afabiizni/xiao/main/backup/strt.sh"
-wget -O limitspeed "https://raw.githubusercontent.com/Afabiizni/xiao/main/backup/limitspeed.sh"
-wget -O autobackup "https://raw.githubusercontent.com/Afabiizni/xiao/main/backup/autobackup.sh"
+# backup
+wget -O menu-backup "https://raw.githubusercontent.com/Afabiizni/xiao/main/backup/menu-backup.sh"
+wget -O autobackup "https://raw.githubusercontent.com/Bringas-tunnel/v5/main/backup/autobackup.sh"
+wget -O backup "https://raw.githubusercontent.com/Bringas-tunnel/v5/main/backup/backup.sh"
+wget -O restore "https://raw.githubusercontent.com/Bringas-tunnel/v5/main/backup/restore.sh"
+wget -O strt "https://raw.githubusercontent.com/Bringas-tunnel/v5/main/backup/strt.sh"
+wget -O limitspeed "https://raw.githubusercontent.com/Bringas-tunnel/v5/main/backup/limitspeed.sh"
+#wget -O backup "https://raw.githubusercontent.com/Afabiizni/xiao/main/backup/backup.sh"
+#wget -O restore "https://raw.githubusercontent.com/Afabiizni/xiao/main/backup/restore.sh"
+#wget -O strt "https://raw.githubusercontent.com/Afabiizni/xiao/main/backup/strt.sh"
+#wget -O limitspeed "https://raw.githubusercontent.com/Afabiizni/xiao/main/backup/limitspeed.sh"
+#wget -O autobackup "https://raw.githubusercontent.com/Afabiizni/xiao/main/backup/autobackup.sh"
 wget -O up "https://raw.githubusercontent.com/Afabiizni/xiao/main/up.sh"
 wget -O jam "https://raw.githubusercontent.com/Afabiizni/xiao/main/jam.sh"
 wget -O /usr/local/bin/xray "https://raw.githubusercontent.com/Rerechan02/XRAY/main/xray.linux.64bit"
@@ -370,7 +376,13 @@ chmod +x clearcache
 chmod +x menu-trgo
 chmod +x menu-trojan
 chmod +x fix
-
+# BACKUP DATA
+chmod +x autobackup
+chmod +x backup
+chmod +x restore
+chmod +x strt
+chmod +x limitspeed
+##################
 chmod +x menu-ssh
 chmod +x usernew
 chmod +x trial
